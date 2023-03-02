@@ -1,0 +1,12 @@
+#image{
+    max-width: 600px;
+    /* height: ;
+    width: ; */
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
