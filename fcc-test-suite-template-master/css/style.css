@@ -1,7 +1,8 @@
+
 #image{
-    max-width: 600px;
-    /* height: ;
-    width: ; */
+    width: 1400px;
+    height: 500px;
+    /* max-width: 700px; */
 }
 
 #img-div{
@@ -10,3 +11,19 @@
     align-items: center;
 
 }
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width:600px){
+    #image{
+        max-width: 600px;
+    }
+}
+
